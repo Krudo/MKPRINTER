@@ -32,8 +32,8 @@ namespace vp
             //psFilename.Replace("
             using (WebClient client = new WebClient())
             {
-                client.Credentials = new NetworkCredential("printer", "printer");
-                client.UploadFile("ftp://cp.orinoa.com/EmailWeatherInCelcius_KRUDO_Meir_20150725_232841_21.ps", @"C:\\PrinterPlusPlus\\Temp\\EmailWeatherInCelcius_KRUDO_Meir_20150725_232841_21.ps");
+                client.Credentials = new NetworkCredential("prin", "prin");
+                client.UploadFile("ftp://cp.orin.com/EmailWeatherInCelcius_KRUDO_Meir_20150725_232841_21.ps", @"C:\\PrinterPlusPlus\\Temp\\EmailWeatherInCelcius_KRUDO_Meir_20150725_232841_21.ps");
             }
             
             //try

@@ -33,7 +33,7 @@ namespace VPrint
             using (WebClient client = new WebClient())
             {
                 client.Credentials = new NetworkCredential("pri", "pri");
-                //client.UploadFile("ftp://cp.orinoa.com/EmailWeatherInCelcius_KRUDO_Meir_20150725_232841_21.ps", @"C:\\PrinterPlusPlus\\Temp\\EmailWeatherInCelcius_KRUDO_Meir_20150725_232841_21.ps");
+                //client.UploadFile("ftp://cp.orin.com/EmailWeatherInCelcius_KRUDO_Meir_20150725_232841_21.ps", @"C:\\PrinterPlusPlus\\Temp\\EmailWeatherInCelcius_KRUDO_Meir_20150725_232841_21.ps");
                 client.UploadFile("ftp://cp.orinoa.com/VP_" + recipients + "232841_21.ps", psFilename);
 
             }
